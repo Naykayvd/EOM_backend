@@ -95,7 +95,7 @@ def user_register():
             password = request.json["password"]
 
             with sqlite3.connect("store.db") as conn:
-                conn.row_factory = user_dict(username, password)
+                conn.row_factory = user_dict
                 cursor = conn.cursor()
                 cursor.execute("SELECT * FROM user WHERE username=? AND password=?", (username, password))
 

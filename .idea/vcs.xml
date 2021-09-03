@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/final_EOMP_frontEnd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/final_EOMP_frontEnd/JS scripts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/final_EOMP_frontEnd/js" vcs="Git" />
+  </component>
+</project>

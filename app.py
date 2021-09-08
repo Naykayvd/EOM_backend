@@ -4,7 +4,7 @@ import sys
 import logging
 from flask import Flask, request, jsonify
 from flask_jwt import jwt_required, current_identity
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 
 
 # compares username and password to database
@@ -72,6 +72,7 @@ def protected():
 
 # adding users
 @app.route('/user-section', methods=["GET", "POST", "PATCH"])
+@cross_origin(origin='*')
 def user_register():
     response = {}
 
